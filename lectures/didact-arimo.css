@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
+
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+
+h1 {
+    font-family: 'Didact Gothic';
+}
+
+h2 {
+    font-family: 'Didact Gothic';
+}
+
+h3 {
+    font-family: 'Didact Gothic';
+}
+
+h4 {
+    font-family: 'Arimo';
+}
+
+li {
+    font-family: 'Arimo';
+}
+
+p {
+    font-family: 'Arimo';
+}
+
+footnote {
+    font-family: 'Arimo';
+}
+
+label {
+    font-family: 'Arimo';
+}
+
+
+blockquote {
+    font-family: 'Arimo';
+}
+
+table {
+    font-family: 'Didact Gothic';
+}
+
+.remark-slide-number {
+    font-family: 'Didact Gothic'; 
+}
+
+.dataTables_info {
+    font-family: 'Arimo'; 
+}
+
+.paginate_button {
+    font-family: 'Arimo'; 
+}
+
+.dataTables_paginate {
+    font-family: 'Arimo'; 
+}
+
+
+
+
+
+
+

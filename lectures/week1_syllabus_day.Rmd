@@ -1,0 +1,85 @@
+---
+title: Analytical Case Management
+subtitle: Syllabus Day
+author: Joe Mienko
+institute: School of Social Work
+css: svm-ioslides-css.css
+font-import: https://fonts.googleapis.com/css?family=Didact+Gothic
+font-family: 'Didact Gothic'
+output:
+ ioslides_presentation:
+    incremental: yes
+    logo: W-Logo_Purple_Hex.png
+    widescreen: yes  
+    slide_level: 2
+---
+
+# Introductions
+
+## Getting to Know Each Other
+
+1. What prior social work experience do you have?
+2. What was your undergraduate major?
+3. What are your future plans/professional interests?
+
+# Syllabus
+
+## **Current** Outline of the Course
+
+```{r, echo = FALSE}
+DiagrammeR::grViz("
+digraph boxes_and_circles {
+
+  # a 'graph' statement
+  graph [overlap = true, rankdir = LR]
+
+  # several 'node' statements
+  node [shape = box, fontsize = 30, fillcolor = '#d9d9d9', color = '#d9d9d9', fontcolor = black,
+        fontname = Helvetica, width = 2, style = filled]
+  A[label = '@@1']; C[label = '@@2']; E[label = '@@3']; 
+
+  node [shape = circle, fontsize = 30
+        fixedsize = true, style = filled, fillcolor = '#444444', color = '#444444', fontcolor = white,
+        width = 2.75] 
+  B[label = '@@4']; D[label = '@@5']; F[label = '@@6']; 
+
+  edge [color = '#BEC837', minlen = 2, penwidth = 4]
+  # several 'edge' statements
+  A->B B->C C->D D->E E->F
+}
+
+
+[1]: 'Investigative \\n Measurement'
+[2]: 'Psychometric \\n Measurement'
+[3]: 'Change \\n Measurement'
+[4]: 'Investigative \\n Decisions'
+[5]: 'Treatment \\n Decisions'
+[6]: 'Permanency \\n Decisions'
+
+", width = 1000)
+```
+
+
+## Syllabus is Still Subject to Change
+
+Outstanding Questions 
+
+1. How much time we need for each topic
+2. Whether or not we will have "lab-time" on some days
+3. Preferred Website (Do people love Canvas?)
+
+## Next Meeting
+
+Read the following documents and come prepared to discuss next week: 
+  
+  - [NASW Code of Ethics](https://www.socialworkers.org/About/Ethics/Code-of-Ethics/Code-of-Ethics-English)
+  - Gary King, Robert O Keohane, and Sidney Verba. (1994). *Designing Social Inquiry: Scientific Inference in Qualitative Research.* Princeton: Princeton University Press.
+  
+Complete the following housekeeping activities prior to our next meeting: 
+
+  - [Register for a CSDE Account](https://csde.washington.edu/netid/account/new.php/)
+  - [Activate UW G Suite](https://itconnect.uw.edu/connect/email/google-apps/getting-started/#activate)
+  - Pre-Test (Link Forthcoming via Email)
+
+# Child Welfare <br/> Measurement
+
